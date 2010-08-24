@@ -60,10 +60,13 @@ let g:mapleader=","
 nnoremap Y y$
 
 " use right arrow to toggle TagList window
-nnoremap <right> <esc>:TlistToggle<cr>
-
+nnoremap <right> :TlistToggle<cr>
 " use left arrow to toggle NerdTree window
-nnoremap <left> <esc>:NERDTreeToggle<cr>
+nnoremap <left> :NERDTreeToggle<cr>
+" use up arrow to jump to previous buffer
+nnoremap <up> :bp<cr>
+" use down arrow to jump to next buffer
+nnoremap <down> :bn<cr>
 
 " open/source my vimrc file more quickly
 nnoremap <leader>ev :e $MYVIMRC<cr>
