@@ -83,6 +83,10 @@ if has("gui_running")
     set background=dark     " use dark background by default
     set guioptions=         " get rid of all gui elements
     set autochdir           " always switch to the current file directory
+    set mousehide           " hide the mouse cursor when typing
+
+    set columns=85
+    set lines=45
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
