@@ -75,27 +75,6 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 " open bash with ConqueTerm
 nnoremap <leader>sh :ConqueTermVSplit bash<cr>
 
-" move the cursor to the window left of the current one
-noremap <silent> <leader>h :wincmd h<cr>
-" move the cursor to the window right of the current one
-noremap <silent> <leader>l :wincmd l<cr>
-" move the cursor to the window below the current one
-noremap <silent> <leader>j :wincmd j<cr>
-" move the cursor to the window above the current one
-noremap <silent> <leader>k :wincmd k<cr>
-
-" close the current window
-noremap <silent> <leader>cw :close<cr>
-
-" move the current window to the right of the main Vim window
-noremap <silent> <leader>ml <C-W>L
-" move the current window to the left of the main Vim window
-noremap <silent> <leader>mh <C-W>H
-" move the current window to the top of the main Vim window
-noremap <silent> <leader>mk <C-W>K
-" move the current window to the bottom of the main Vim window
-noremap <silent> <leader>mj <C-W>J
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " GUI Setings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
