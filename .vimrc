@@ -86,7 +86,7 @@ if has("gui_running")
     set mousehide           " hide the mouse cursor when typing
 
     set columns=85
-    set lines=45
+    set lines=40
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
