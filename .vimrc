@@ -15,6 +15,7 @@ set incsearch           " use increment search
 set smartcase           " if there are Caps, go case sensitive
 set timeoutlen=500      " set timeout to 500 milliseconds 
 set foldenable          " turn on folding
+set directory=~/.vim/tmp
 
 filetype on
 filetype plugin on      
