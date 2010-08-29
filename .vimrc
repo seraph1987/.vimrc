@@ -84,6 +84,7 @@ if has("gui_running")
     set guioptions=         " get rid of all gui elements
     set autochdir           " always switch to the current file directory
     set mousehide           " hide the mouse cursor when typing
+    set guifont=Monaco:h12
 
     set columns=85
     set lines=40
