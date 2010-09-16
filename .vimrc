@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" General Settings 
+"General Settings 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible        " explicitly get out of vi-compatible mode
 set hidden              " change buffers without saving
@@ -14,8 +14,20 @@ set ignorecase          " case insensitive by default
 set incsearch           " use increment search
 set smartcase           " if there are Caps, go case sensitive
 set timeoutlen=500      " set timeout to 500 milliseconds 
-set foldenable          " turn on folding
 set directory=~/.vim/tmp
+
+"Folding
+set foldenable          " turn on folding
+set foldlevel=100       " don't auto fold anything
+set foldmarker={,}      " fold C style code
+set foldmethod=marker   " fold on marker
+set foldopen=block,hor,mark,percent,quickfix,tag,search
+
+function SimpleFoldText()
+    return getline(v:foldstart).' '
+endfunction
+
+set foldtext=SimpleFoldText()
 
 filetype on
 filetype plugin on      
