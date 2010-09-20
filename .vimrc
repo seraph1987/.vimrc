@@ -14,6 +14,7 @@ set ignorecase          " case insensitive by default
 set incsearch           " use increment search
 set smartcase           " if there are Caps, go case sensitive
 set timeoutlen=500      " set timeout to 500 milliseconds 
+set textwidth=80        
 set directory=~/.vim/tmp
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 
