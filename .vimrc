@@ -68,11 +68,6 @@ set backspace=indent,eol,start
 " Mapping
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" marking headlines
-nnoremap h1 yypVr=o
-nnoremap h2 yypVr-o
-nnoremap h3 :s/\(.+\)/-\1-/<cr>o
-
 " remap <leader> to ','
 let mapleader="," 
 let g:mapleader="," 
