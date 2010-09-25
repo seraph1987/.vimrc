@@ -59,7 +59,7 @@ set smartindent
 set tabstop=8
 set softtabstop=4
 set shiftwidth=4
-set wrap                " wrap line
+set nowrap              " no wrap line
 
 " allow backspacing over autoindent, linebreaks and start of insert
 set backspace=indent,eol,start 
