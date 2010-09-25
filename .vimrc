@@ -143,10 +143,3 @@ let g:ConqueTerm_PromptRegex='^\w\+@[0-9A-Za-z_.-]\+:[0-9A-Za-z_./\~,:-]\+\$'
 let g:ConqueTerm_CWInsert=0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" auto update my vimrc file
-"if has("autocmd")
-    "autocmd bufwritepost .vimrc source $MYVIMRC
-"endif
-
-
