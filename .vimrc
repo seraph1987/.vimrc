@@ -72,6 +72,10 @@ set backspace=indent,eol,start
 let mapleader="," 
 let g:mapleader="," 
 
+" use normal regex when search 
+nnoremap / /\v
+vnoremap / /\v
+
 " use 'Y' to yank to the end of line
 nnoremap Y y$
 
