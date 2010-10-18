@@ -25,7 +25,7 @@ set foldmarker={,}      " fold C style code
 set foldmethod=marker   " fold on marker
 set foldopen=block,hor,mark,percent,quickfix,tag,search
 
-function SimpleFoldText()
+function! SimpleFoldText()
     return getline(v:foldstart).' '
 endfunction
 
