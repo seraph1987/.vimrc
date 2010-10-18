@@ -105,6 +105,7 @@ nnoremap <leader>sh :ConqueTermVSplit bash<cr>
 " GUI Setings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 if has("gui_running")
+    colorscheme molokai     
     set cursorline          " highlight current row
     set background=dark     " use dark background by default
     set guioptions=         " get rid of all gui elements
