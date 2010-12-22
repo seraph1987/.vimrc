@@ -14,15 +14,12 @@ set ignorecase          " case insensitive by default
 set incsearch           " use increment search
 set smartcase           " if there are Caps, go case sensitive
 set timeoutlen=500      " set timeout to 500 milliseconds 
-set textwidth=80        
 set directory=~/.vim/tmp
 set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]
 
 "Folding
 set foldenable          " turn on folding
 set foldlevel=100       " don't auto fold anything
-set foldmarker={,}      " fold C style code
-set foldmethod=marker   " fold on marker
 set foldopen=block,hor,mark,percent,quickfix,tag,search
 
 function! SimpleFoldText()
@@ -126,7 +123,7 @@ call pathogen#helptags()
 filetype plugin indent on
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"Taglist
+" Taglist
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let Tlist_Auto_Open=0          
 let Tlist_Ctags_Cmd="ctags"   
@@ -139,12 +136,12 @@ let Tlist_Display_Prototype=1
 let Tlist_Use_SingleClick = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"NerdCommenter
+" NerdCommenter
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let NERDSpaceDelims=1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"ConqueTerm
+" ConqueTerm
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ConqueTerm_EscKey='<esc>'
 let g:ConqueTerm_Color=1
