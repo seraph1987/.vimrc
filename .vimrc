@@ -79,9 +79,6 @@ let g:mapleader=","
 " nnoremap / /\v
 " vnoremap / /\v
 
-" use 'Y' to yank to the end of line
-nnoremap Y y$
-
 " use right arrow to toggle TagList window
 nnoremap <right> :TlistToggle<cr>
 " use left arrow to toggle NerdTree window
